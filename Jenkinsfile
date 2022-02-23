@@ -11,7 +11,7 @@ pipeline{
         stage('compile-app'){
             steps{
                 echo 'this is the first job'
-                sh 'npm istall'
+                sh 'npm install'
             }
         }
         stage('test-app'){
